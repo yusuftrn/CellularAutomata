@@ -7,9 +7,9 @@ The Game of Life takes place on a 2-dimensional grid of cells, for example, like
 
 These rules, to be exact:
 
-- A live cell with 2 or 3 live neighbours survives.
-- A dead cell with 3 live neighbours becomes a live cell.
-- All other live cells die in the next generation, and all other dead cells stay dead.
+- Survivals: Every counter with two or three neighboring counters survives for the next generation
+- Deaths: Each counter with four or more neighbors dies (is removed) from overpopulation. Every counter with one neighbor or none dies from isolation.
+- Births: Each empty cell adjacent to exactly three neighbors -no more, no fewer- is a birth cell. A counter is placed on it at the next move.
 
 The description can be read here: https://en.wikipedia.org/wiki/Cellular_automaton
 
