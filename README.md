@@ -2,6 +2,7 @@
 This swift demonstration is based on Conway's Game of Life algorithm.
 
 ![Gosper's Glider Gun](https://upload.wikimedia.org/wikipedia/commons/e/e5/Gospers_glider_gun.gif)
+
 image: wikipedia / cellular automaton
 
 The Game of Life takes place on a 2-dimensional grid of cells, for example, like a pixel image. Each cell can be alive or dead. Every generation of the game, you determine which cells live on to the next generation. This happens based on the alive/dead state of the 8 neighbors of a cell, and 3 rules.
